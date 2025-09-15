@@ -1,0 +1,4 @@
+_schema: page
+title: Page
+layout: ../layouts/PageLayout.astro
+content_blocks: []

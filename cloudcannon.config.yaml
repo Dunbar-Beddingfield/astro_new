@@ -1,8 +1,11 @@
+_schema: _schema
+source: /src/
 _inputs:
   content_blocks:
     type: array
     options:
       structures: _structures.content_blocks
+    cascade: true
 
 collections_config:
   pages:
@@ -10,9 +13,14 @@ collections_config:
     output: true
     parse_content_front_matter: true
     icon: description
+    add_options:
+      - name: New Page
+        icon: add
     schemas:
       default:
-        path: src/layouts/PageLayout.astro
+        path: schemas/page.yaml
         name: Page
         _enabled_editors:
           - visual
+
+timezone: Etc/UTC
