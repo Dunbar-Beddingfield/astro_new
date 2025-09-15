@@ -3,3 +3,16 @@ _inputs:
     type: array
     options:
       structures: _structures.content_blocks
+
+collections_config:
+  pages:
+    path: src/pages
+    output: true
+    parse_content_front_matter: true
+    icon: description
+    schemas:
+      default:
+        path: src/layouts/PageLayout.astro
+        name: Page
+        _enabled_editors:
+          - visual
