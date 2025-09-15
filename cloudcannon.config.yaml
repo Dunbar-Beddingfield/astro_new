@@ -1,7 +1,7 @@
 _schema: _schema
 collections_config:
   pages:
-    path: src\pages
+    path: src/pages
     glob:
     name:
     singular_name:
