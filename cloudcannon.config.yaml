@@ -1,5 +1,9 @@
+_schema: _schema
+source: /src/
 _inputs:
   content_blocks:
     type: array
     options:
       structures: _structures.content_blocks
+    cascade: true
+timezone: Etc/UTC
