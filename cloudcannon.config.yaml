@@ -1,0 +1,5 @@
+_inputs:
+  content_blocks:
+    type: array
+    options:
+      structures: _structures.content_blocks

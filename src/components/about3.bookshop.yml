@@ -1,0 +1,11 @@
+spec:
+  structures:
+    - content_blocks
+  label: About Section
+  description: Company information and background section
+  icon: info
+
+blueprint:
+  heading: "About Uncovered Contact"
+  description: "Helping businesses find the right prospects through ethical data practices"
+  content: "Our mission is to revolutionize how businesses discover and connect with potential clients through transparent and ethical data practices."

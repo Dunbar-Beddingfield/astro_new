@@ -1,0 +1,26 @@
+spec:
+  structures:
+    - content_blocks
+  label: Feature Grid
+  description: Showcase features in a grid layout with images
+  icon: grid_view
+
+blueprint:
+  heading: "Why Choose Uncovered Contact?"
+  description: "Advanced B2B contact discovery tools that help you find and connect with your ideal prospects efficiently."
+  feature1:
+    title: "AI-Powered Search"
+    description: "Our advanced algorithms analyze millions of data points to find the most relevant contacts for your business needs."
+    image: "/mail2.png"
+  feature2:
+    title: "Real-Time Verification"
+    description: "Every contact is verified in real-time to ensure you're reaching active, engaged prospects."
+    image: "/mail2-light.png"
+  feature3:
+    title: "CRM Integration"
+    description: "Seamlessly integrate with your existing CRM systems for streamlined workflow management."
+    image: "/mail2.png"
+  feature4:
+    title: "Analytics Dashboard"
+    description: "Track your outreach performance with detailed analytics and conversion metrics."
+    image: "/mail2-light.png"

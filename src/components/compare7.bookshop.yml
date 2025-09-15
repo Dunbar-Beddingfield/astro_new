@@ -1,0 +1,31 @@
+spec:
+  structures:
+    - content_blocks
+  label: Comparison Table
+  description: Compare features or pricing options
+  icon: compare
+
+blueprint:
+  heading: "Choose Your Plan"
+  description: "Find the perfect solution for your business needs"
+  plans:
+    - name: "Starter"
+      price: "$49/mo"
+      features:
+        - "500 contacts/month"
+        - "Basic search filters"
+        - "Email verification"
+    - name: "Professional"
+      price: "$99/mo"
+      features:
+        - "2,000 contacts/month"
+        - "Advanced search filters"
+        - "Email & phone verification"
+        - "CRM integration"
+    - name: "Enterprise"
+      price: "Custom"
+      features:
+        - "Unlimited contacts"
+        - "All advanced features"
+        - "Dedicated account manager"
+        - "API access"

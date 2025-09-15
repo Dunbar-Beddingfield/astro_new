@@ -1,0 +1,20 @@
+spec:
+  structures:
+    - content_blocks
+  label: Navigation Bar
+  description: Main site navigation with dropdown menus
+  icon: menu
+
+blueprint:
+  logo:
+    url: "/"
+    src: "/favicon.svg"
+    alt: "Uncovered Contact"
+    title: "Uncovered Contact"
+  auth:
+    login: 
+      title: "Login"
+      url: "#login"
+    signup:
+      title: "Sign Up" 
+      url: "#signup"

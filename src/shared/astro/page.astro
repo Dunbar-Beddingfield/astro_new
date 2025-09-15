@@ -1,0 +1,27 @@
+---
+const { contentBlocks } = Astro.props;
+const components = {};
+const componentImports = import.meta.glob("../../components/**/*.tsx", {
+  eager: true,
+});
+Object.entries(componentImports).forEach(([path, obj]) => {
+  const parts = path
+    .replace("../../components/", "")
+    .split(".")[0]
+    .split("/");
+  if (parts[parts.length - 1] === parts[parts.length - 2]) {
+    parts.pop();
+  }
+  const bookshopName = parts.join("/");
+  components[bookshopName] = obj.default;
+});
+---
+
+<main>
+  {contentBlocks.map((block) => {
+    const moduleExport = components[block._bookshop_name];
+    const Component = moduleExport[block._bookshop_name] || moduleExport.default;
+    return Component ? <Component {...block} /> : null;
+  })}
+</main>
+

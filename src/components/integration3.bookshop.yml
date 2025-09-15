@@ -1,0 +1,23 @@
+spec:
+  structures:
+    - content_blocks
+  label: Integration Section
+  description: Showcase product integrations and connections
+  icon: integration_instructions
+
+blueprint:
+  heading: "Seamless Integrations"
+  description: "Connect Uncovered Contact with your favorite tools"
+  integrations:
+    - name: "Salesforce"
+      logo: "/integrations/salesforce.png"
+      description: "Sync contacts directly to your Salesforce CRM"
+    - name: "HubSpot"
+      logo: "/integrations/hubspot.png"
+      description: "Seamless integration with HubSpot marketing suite"
+    - name: "Zapier"
+      logo: "/integrations/zapier.png"
+      description: "Connect to 3,000+ apps through Zapier"
+    - name: "Slack"
+      logo: "/integrations/slack.png"
+      description: "Get notifications and updates in your Slack channels"

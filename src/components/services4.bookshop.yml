@@ -1,0 +1,23 @@
+spec:
+  structures:
+    - content_blocks
+  label: Services Section
+  description: Showcase company services or offerings
+  icon: miscellaneous_services
+
+blueprint:
+  heading: "Our Services"
+  description: "Comprehensive contact discovery solutions for your business"
+  services:
+    - title: "Contact Discovery"
+      description: "Find verified contact information for your target audience"
+      icon: "search"
+    - title: "Data Enrichment"
+      description: "Enhance your existing contacts with additional data points"
+      icon: "database"
+    - title: "Lead Scoring"
+      description: "Prioritize prospects based on engagement potential"
+      icon: "trending_up"
+    - title: "Market Intelligence"
+      description: "Gain insights into your target market and competition"
+      icon: "analytics"

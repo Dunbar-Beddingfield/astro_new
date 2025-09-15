@@ -1,0 +1,14 @@
+spec:
+  structures:
+    - content_blocks
+  label: Logo Component
+  description: Display brand logo with options
+  icon: insert_photo
+
+blueprint:
+  url: "/"
+  src: "/favicon.svg"
+  alt: "Uncovered Contact Logo"
+  title: "Uncovered Contact"
+  width: 150
+  height: 50

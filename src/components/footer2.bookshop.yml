@@ -1,0 +1,43 @@
+spec:
+  structures:
+    - content_blocks
+  label: Footer
+  description: Site footer with multiple columns of links
+  icon: format_line_spacing
+
+blueprint:
+  logo:
+    url: "/"
+    src: "/favicon.svg"
+    alt: "Uncovered Contact"
+    title: "Uncovered Contact"
+  tagline: "Find the right contacts, ethically."
+  copyright: "© 2025 Uncovered Contact. All rights reserved."
+  menuItems:
+    - title: "Product"
+      links:
+        - text: "Overview"
+          url: "#"
+        - text: "Pricing"
+          url: "#"
+        - text: "Features"
+          url: "#"
+    - title: "Company"
+      links:
+        - text: "About"
+          url: "#"
+        - text: "Team"
+          url: "#"
+        - text: "Contact"
+          url: "#"
+    - title: "Resources"
+      links:
+        - text: "Help Center"
+          url: "#"
+        - text: "Documentation"
+          url: "#"
+  bottomLinks:
+    - text: "Terms and Conditions"
+      url: "#"
+    - text: "Privacy Policy"
+      url: "#"

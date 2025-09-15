@@ -1,0 +1,29 @@
+spec:
+  structures:
+    - content_blocks
+  label: Logo Carousel
+  description: Display partner or client logos in a grid or carousel
+  icon: view_carousel
+
+blueprint:
+  heading: "Trusted by Industry Leaders"
+  description: "Join thousands of companies using Uncovered Contact"
+  logos:
+    - src: "/logos/company1.png"
+      alt: "Company 1"
+      url: "#"
+    - src: "/logos/company2.png"
+      alt: "Company 2"
+      url: "#"
+    - src: "/logos/company3.png"
+      alt: "Company 3"
+      url: "#"
+    - src: "/logos/company4.png"
+      alt: "Company 4"
+      url: "#"
+    - src: "/logos/company5.png"
+      alt: "Company 5"
+      url: "#"
+    - src: "/logos/company6.png"
+      alt: "Company 6"
+      url: "#"

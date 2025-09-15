@@ -1,0 +1,19 @@
+spec:
+  structures:
+    - content_blocks
+  label: FAQ Section
+  description: Frequently asked questions with answers
+  icon: help
+
+blueprint:
+  heading: "Frequently Asked Questions"
+  description: "Find answers to common questions about our services"
+  faqs:
+    - question: "How does Uncovered Contact source its data?"
+      answer: "We use a combination of public records, opt-in databases, and proprietary algorithms to ethically source contact information."
+    - question: "Is the contact data GDPR compliant?"
+      answer: "Yes, all our data collection and processing methods comply with GDPR, CCPA, and other privacy regulations."
+    - question: "How accurate is your contact information?"
+      answer: "We maintain a 95%+ accuracy rate through real-time verification and regular database updates."
+    - question: "Can I integrate with my existing CRM?"
+      answer: "Yes, we offer seamless integration with popular CRM platforms including Salesforce, HubSpot, and more."

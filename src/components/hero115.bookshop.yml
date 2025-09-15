@@ -1,0 +1,16 @@
+spec:
+  structures:
+    - content_blocks
+  label: Hero Banner
+  description: Main hero section with image and call-to-action
+  icon: star
+
+blueprint:
+  heading: "Uncover Your Next Contact"
+  description: "Ethically Sourced Data to Power Your Next Round of Growth"
+  button:
+    text: "Get Started Free"
+    url: "#get-started"
+  trustText: "Trusted by 1,000+ growing companies"
+  imageSrc: "/mail2.png"
+  imageAlt: "Contact Management Dashboard"
