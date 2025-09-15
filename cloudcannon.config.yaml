@@ -1,26 +1,37 @@
 _schema: _schema
 source: src
+collections_config:
+  pages:
+    path: pages
+    glob:
+    name:
+    singular_name:
+    icon: notes
+    url:
+    disable_url: false
+    include_developer_files:
+    documentation:
+    description: ''
+    preview:
+    sort:
+    sort_options:
+    _editables:
+    _enabled_editors:
+    _inputs:
+    _select_data:
+    _structures:
+    add_options:
+    create:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    new_preview_url:
+    schemas:
+    schema_key:
 _inputs:
   content_blocks:
     type: array
     options:
       structures: _structures.content_blocks
     cascade: true
-
-collections_config:
-  pages:
-    path: src/pages
-    output: true
-    parse_content_front_matter: true
-    icon: description
-    add_options:
-      - name: New Page
-        icon: add
-    schemas:
-      default:
-        path: schemas/page.yaml
-        name: Page
-        _enabled_editors:
-          - visual
-
 timezone: Etc/UTC
